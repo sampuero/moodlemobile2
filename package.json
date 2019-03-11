@@ -62,6 +62,7 @@
     "@ionic-native/local-notifications": "4.5.2",
     "@ionic-native/media-capture": "4.17.0",
     "@ionic-native/network": "4.17.0",
+    "@ionic-native/push": "^4.17.0",
     "@ionic-native/screen-orientation": "4.17.0",
     "@ionic-native/splash-screen": "4.17.0",
     "@ionic-native/sqlite": "4.17.0",
