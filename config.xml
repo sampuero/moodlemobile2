@@ -128,5 +128,5 @@
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="false" />
     </edit-config>
     <plugin name="cordova-plugin-firebase" spec="2.0.5" />
-    <engine name="android" spec="^7.1.2" />
+    <engine name="android" spec="^7.1.4" />
 </widget>
