@@ -1,11 +1,18 @@
 {
+<<<<<<< HEAD
     "app_id": "com.moodle.moodlemobile",
     "appname": "Moodle Mobile",
     "desktopappname": "Moodle Desktop",
     "versioncode": 3610,
+=======
+    "app_id": "com.denken.moodlemobile",
+    "appname": "Denken Moodle Mobile",
+    "desktopappname": "Denken Moodle Desktop",
+    "versioncode": 3600,
+>>>>>>> refactor
     "versionname": "3.6.1",
     "cache_expiration_time": 300000,
-    "default_lang": "en",
+    "default_lang": "es",
     "languages": {
         "ar": "عربي",
         "bg": "Български",
@@ -53,6 +60,7 @@
     },
     "wsservice": "moodle_mobile_app",
     "wsextservice": "local_mobile",
+<<<<<<< HEAD
     "demo_sites": {
         "student": {
             "url": "https:\/\/school.demo.moodle.net",
@@ -65,8 +73,12 @@
             "password": "moodle"
         }
     },
+=======
+    "demo_sites": "",
+    "gcmpn": "694767596569",
+>>>>>>> refactor
     "customurlscheme": "moodlemobile",
-    "siteurl": "",
+    "siteurl": "http://denkencapacitacion.cl/",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
