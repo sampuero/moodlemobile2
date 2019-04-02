@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<<<<<<< HEAD
 <widget id="com.moodle.moodlemobile" version="3.6.1" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Moodle</name>
     <description>Moodle official app</description>
-=======
 <widget id="com.denken.moodlemobile" version="3.6.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Denken</name>
     <description>Denken app</description>
->>>>>>> refactor
+<widget id="com.denken.moodlemobile" version="3.6.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Denken</name>
+    <description>Denken app</description>
     <author email="mobile@moodle.com" href="http://moodle.com">Moodle Mobile team</author>
     <content src="index.html" />
     <access origin="*" />
@@ -118,17 +118,14 @@
         <icon height="1024" src="resources/ios/icon/icon-1024.png" width="1024" />
         <splash height="2732" src="resources/ios/splash/Default@2x~universal~anyany.png" width="2732" />
     </platform>
-<<<<<<< HEAD
     <plugin name="com-darryncampbell-cordova-plugin-intent" spec="1.1.5" />
     <plugin name="cordova-android-support-gradle-release" spec="2.0.1">
-=======
     <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:name='MainActivity']">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="false" />
     </edit-config>
     <engine name="android" spec="^7.1.2" />
     <plugin name="com-darryncampbell-cordova-plugin-intent" spec="~1.1.1" />
     <plugin name="cordova-android-support-gradle-release" spec="~2.0.1">
->>>>>>> refactor
         <variable name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
     </plugin>
     <plugin name="cordova-clipboard" spec="~1.2.1" />
@@ -140,7 +137,6 @@
         <variable name="ANDROID_HOST" value=" " />
         <variable name="ANDROID_PATHPREFIX" value="/" />
     </plugin>
-<<<<<<< HEAD
     <plugin name="cordova-plugin-device" spec="2.0.2" />
     <plugin name="cordova-plugin-file" spec="6.0.1" />
     <plugin name="cordova-plugin-file-opener2" spec="2.0.19" />
@@ -161,7 +157,6 @@
     <plugin name="phonegap-plugin-push" spec="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle-v2">
         <variable name="ANDROID_SUPPORT_V13_VERSION" value="27.+" />
         <variable name="FCM_VERSION" value="17.0.+" />
-=======
     <plugin name="cordova-plugin-device" spec="~2.0.2" />
     <plugin name="cordova-plugin-file" spec="~6.0.1" />
     <plugin name="cordova-plugin-file-opener2" spec="~2.0.19" />
@@ -181,6 +176,5 @@
     <plugin name="nl.kingsquare.cordova.background-audio" spec="~1.0.1" />
     <plugin name="phonegap-plugin-push" spec="~1.11.1">
         <variable name="SENDER_ID" value="694767596569" />
->>>>>>> refactor
     </plugin>
 </widget>
